@@ -53,12 +53,21 @@ export default function ServicesSection() {
 
       <div className="flex flex-row mt-12 items-center justify-center w-screen h-10">
         <div className="border border-zinc-100 w-24 h-0 items-center justify-center" />
+
         <div className="flex items-center justify-center ml-2">
           <img src="comma.svg" alt="" />
         </div>
+
         <div className="border border-zinc-100 w-24 h-0 items-center justify-center ml-2" />
       </div>
-      <Testimonial />
+
+      <Testimonial
+        text={
+          "“Our sales increased by 30% in just three months thanks to this chatbot. It’s like having a full-time sales and support team available 24/7.”"
+        }
+        width="max-screen"
+        paragraphWidth="max-screen"
+      />
     </div>
   );
 }

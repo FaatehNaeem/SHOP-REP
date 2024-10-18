@@ -1,9 +1,10 @@
 import Footer from "@/components/common/footer";
 import Header from "@/components/common/header";
-import HeroSection from "./sections/hero-section";
+import HeroSection from "@/sections/hero-section";
 import ServicesSection from "@/sections/services-section";
-import AutomationSection from "./sections/automation-section";
-import CallToActionBanner from "./components/cta-banner";
+import AutomationSection from "@/sections/automation-section";
+import CallToActionBanner from "@/components/cta-banner";
+import TestimonialsSection from "@/sections/testimonials-section";
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       <HeroSection />
       <ServicesSection />
       <AutomationSection />
-      <CallToActionBanner/>
+      <CallToActionBanner />
+      <TestimonialsSection/>
       <Footer />
     </div>
   );
