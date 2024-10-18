@@ -52,7 +52,7 @@ export default function ServicesSection() {
         </div>
       </div>
 
-<Divider/>
+      <Divider imgString="comma.svg" />
 
       <Testimonial
         text={

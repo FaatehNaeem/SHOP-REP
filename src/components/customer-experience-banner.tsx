@@ -13,7 +13,7 @@ export default function CustomerExperienceBanner() {
         Simulate Shop Rep
           </Button>
 
-          <Divider/>
+          <Divider imgString="white-comma.svg"/>
           
     </div>
   );
