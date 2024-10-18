@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <>
-      <nav className="hidden flex-row gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 w-screen h-[386px] border-b ">
+    <footer>
+      <nav className="hidden flex-row gap-12 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-12 h-[386px] border-b">
         {/* create an account */}
         <div className="flex flex-col w-[30%] gap-4 pl-6 h-52">
           <a
@@ -131,7 +131,7 @@ export default function Footer() {
       </nav>
 
       {/* copyrights */}
-      <div className="flex flex-row w-screen">
+      <div className="flex flex-row w-[98vw]">
         <div className="p-5 pl-6">
           <h2 className="text-primary-foreground">All rights reserved</h2>
         </div>
@@ -141,6 +141,6 @@ export default function Footer() {
           <h2 className="text-primary-foreground">Privacy Policy</h2>
         </div>
       </div>
-    </>
+    </footer>
   );
 }
