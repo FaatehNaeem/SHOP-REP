@@ -3,6 +3,7 @@ import Header from "@/components/common/header";
 import HeroSection from "./sections/hero-section";
 import ServicesSection from "@/sections/services-section";
 import AutomationSection from "./sections/automation-section";
+import CallToActionBanner from "./components/cta-banner";
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
       <Header />
       <HeroSection />
       <ServicesSection />
-      <AutomationSection/>
+      <AutomationSection />
+      <CallToActionBanner/>
       <Footer />
     </div>
   );
