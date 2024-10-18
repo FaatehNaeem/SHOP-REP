@@ -2,6 +2,7 @@ import Footer from "@/components/common/footer";
 import Header from "@/components/common/header";
 import HeroSection from "./sections/hero-section";
 import ServicesSection from "@/sections/services-section";
+import AutomationSection from "./sections/automation-section";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <HeroSection />
       <ServicesSection />
+      <AutomationSection/>
       <Footer />
     </div>
   );
