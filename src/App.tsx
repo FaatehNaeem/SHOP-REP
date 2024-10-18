@@ -5,6 +5,7 @@ import ServicesSection from "@/sections/services-section";
 import AutomationSection from "@/sections/automation-section";
 import CallToActionBanner from "@/components/cta-banner";
 import TestimonialsSection from "@/sections/testimonials-section";
+import FeaturesSection from "./sections/features-section";
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
       <ServicesSection />
       <AutomationSection />
       <CallToActionBanner />
-      <TestimonialsSection/>
+      <TestimonialsSection />
+      <FeaturesSection />
       <Footer />
     </div>
   );
