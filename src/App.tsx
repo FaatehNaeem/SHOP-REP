@@ -1,3 +1,4 @@
+import Footer from "./components/common/footer";
 import Header from "./components/common/header";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <div className="flex min-h-screen w-screen flex-col bg-background">
         {/* <h2 className='bg-secondary-foreground text-primary-foreground text-2xl'>HELLO</h2> */}
         <Header />
+        <Footer/>
       </div>
     </>
   );
