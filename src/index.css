@@ -79,6 +79,7 @@ button:focus-visible {
 @layer base {
   :root {
     --background: 0 0%, 100%;
+    --background2: 210 17% 98%;
     --foreground: 171 78% 2%;
     --primary-foreground: 171 78% 2%; /*black*/ 
     --secondary-foreground: 175 100% 40%; /*aqua*/
