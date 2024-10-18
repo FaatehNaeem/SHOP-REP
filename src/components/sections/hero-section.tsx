@@ -1,4 +1,5 @@
-import { Button } from "./ui/button";
+import LeadingBrandsBanner from "@/components/leading-brands-banner";
+import { Button } from "@/components/ui/button";
 import { CheckCircle2Icon, Star } from "lucide-react";
 
 export default function HeroSection() {
@@ -47,9 +48,10 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-        <div className="flex flex-col justify-center items-center">
-          <img src="hero-section-img.png" alt="" />
-        </div>
+      <div className="flex flex-col justify-center items-center">
+        <img src="hero-section-img.png" alt="" />
+      </div>
+      <LeadingBrandsBanner />
     </div>
   );
 }

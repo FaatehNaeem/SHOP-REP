@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Header() {
   return (
-    <nav className="hidden flex-row gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 w-[98vw] h-[64px] overflow-hidden p-0 m-0">
+    <nav className="hidden flex-row gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 h-[64px]">
       <div className="w-[33%] pl-12">
         <a
           href="#"
