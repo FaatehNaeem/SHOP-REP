@@ -1,10 +1,21 @@
-export default function Testimonial() {
+interface TestimonialProps {
+  text: string;
+  width: string;
+  paragraphWidth: string;
+}
+
+export default function Testimonial({
+  text,
+  width,
+  paragraphWidth,
+}: TestimonialProps) {
   return (
-    <div className="flex flex-col w-screen justify-center items-center mt-2">
-      <p className="w-[696px] text-center">
-        “Our sales increased by 30% in just three months thanks to this chatbot.
-        It&apos;s like having a full-time sales and support team available
-        24/7.”
+    <div
+      className="flex flex-col justify-center items-center mt-2"
+      style={{ width: width }}
+    >
+      <p className="text-center" style={{ width: paragraphWidth }}>
+        {text}
       </p>
       <img
         src="testimonial.svg"
