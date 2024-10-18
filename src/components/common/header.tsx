@@ -1,4 +1,3 @@
-import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Header() {
@@ -9,10 +8,11 @@ export default function Header() {
           href="#"
           className="flex flex-row items-center gap-2 text-lg font-semibold md:text-base min-w-max"
         >
-          <ShoppingCart className="h-6 w-6 text-secondary-foreground" />
+          <img src="shop-rep-logo.svg" alt="" />
+          {/* <ShoppingCart className="h-6 w-6 text-secondary-foreground" />
           <p className="text-secondary-foreground font-bold text-2xl font-sans">
             SHOP REP
-          </p>
+          </p> */}
         </a>
       </div>
 
