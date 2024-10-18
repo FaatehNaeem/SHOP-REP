@@ -1,3 +1,5 @@
+import Testimonial from "@/components/testimonial";
+
 export default function ServicesSection() {
   return (
     <div className="w-screen flex flex-col items-center justify-center mt-12">
@@ -56,6 +58,7 @@ export default function ServicesSection() {
         </div>
         <div className="border border-zinc-100 w-24 h-0 items-center justify-center ml-2" />
       </div>
+      <Testimonial />
     </div>
   );
 }
