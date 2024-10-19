@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,8 +31,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -72,7 +71,7 @@ button:focus-visible {
   }
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -81,7 +80,7 @@ button:focus-visible {
     --background: 0 0%, 100%;
     --background2: 210 17% 98%;
     --foreground: 171 78% 2%;
-    --primary-foreground: 171 78% 2%; /*black*/ 
+    --primary-foreground: 171 78% 2%; /*black*/
     --secondary-foreground: 175 100% 40%; /*aqua*/
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -139,5 +138,76 @@ button:focus-visible {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* services section responsiveness */
+
+/* 1035px to 1155px */
+@media (max-width: 1155px) and (min-width: 1035px) {
+  .services-container {
+    width: 1060px;
+  }
+  .services-card {
+    width: 340px;
+  }
+  .services-para {
+    width: 300px;
+  }
+}
+
+/* 811px to 1035px */
+@media (max-width: 1035px) and (min-width: 811px) {
+  .services-container {
+    width: 1000px;
+    justify-content: center;
+    gap: 4px;
+  }
+  .services-card {
+    width: 250px;
+  }
+
+  .services-heading {
+    font-size: 15px;
+  }
+
+  .services-para {
+    width: 220px;
+    font-size: 14px;
+    height: 80px;
+  }
+}
+
+/* 390px to 810px */
+@media (max-width: 810px) and (min-width: 390px) {
+  .services-container {
+    flex-direction: column;
+  }
+}
+
+/* 0px to 510px */
+@media (max-width: 510px) and (min-width: 0px) {
+  .services-container {
+    flex-direction: column;
+  }
+  .services-card {
+    width: 250px;
+  }
+
+  .services-heading {
+    font-size: 15px;
+  }
+
+  .services-para {
+    width: 220px;
+    font-size: 14px;
+    height: 80px;
+  }
+  .boost-sales-heading {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  .para-container {
+    width: 100%;
   }
 }

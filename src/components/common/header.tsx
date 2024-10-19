@@ -9,10 +9,6 @@ export default function Header() {
           className="flex flex-row items-center gap-2 text-lg font-semibold md:text-base min-w-max"
         >
           <img src="shop-rep-logo.svg" alt="" />
-          {/* <ShoppingCart className="h-6 w-6 text-secondary-foreground" />
-          <p className="text-secondary-foreground font-bold text-2xl font-sans">
-            SHOP REP
-          </p> */}
         </a>
       </div>
 
