@@ -211,3 +211,38 @@ button:focus-visible {
     width: 100%;
   }
 }
+
+
+
+/* features section responsiveness  */
+
+ /* 811px to 1185px   */
+@media (max-width: 1185px) and (min-width: 811px) {
+  .features-container {
+    flex-wrap: wrap;
+  }
+  .feature-card-container {
+    flex: 1 1 calc(33.33% - 10px);
+    flex-direction: row;
+  }
+}
+
+/* 511px to 810px */
+@media (max-width: 810px) and (min-width: 511px) {
+  .features-container {
+    flex-wrap: wrap;
+  }
+  .feature-card-container {
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+
+/* 0px to 510px */
+@media (max-width: 510px) and (min-width: 0px) {
+  .features-container {
+    flex-wrap: wrap;
+  }
+  .feature-card-container {
+    flex: 1 1 calc(100%);
+  }
+}
