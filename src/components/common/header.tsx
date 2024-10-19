@@ -1,9 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function Header() {
   return (
     <nav className="flex flex-row gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 h-[64px] navbar justify-between items-center">
+      {/* logo */}
       <div className="w-[33%] pl-12 logo-container items-center justify-center">
         <a
           href="#"
@@ -14,6 +20,7 @@ export default function Header() {
         </a>
       </div>
 
+      {/* menu items */}
       <div className="flex w-[30%] justify-center items-center gap-12 p-2 menu-items">
         <a
           href="#"
@@ -35,6 +42,7 @@ export default function Header() {
         </a>
       </div>
 
+      {/* btn + login */}
       <div className="flex w-[20%] items-center gap-4 lg:ml-auto md:gap-2 lg:gap-4 hamburger-container">
         <a
           href="#"
@@ -45,7 +53,42 @@ export default function Header() {
         <Button className="bg-secondary-foreground rounded-3xl w-[112px] h-[32px] text-background focus-visible:ring-0 hover:border-none hover:bg-teal-500 focus:outline-none header-btn">
           Try for free
         </Button>
-        <Menu className="hidden menu-icon" />
+
+        {/* sheet trigger */}
+        <Sheet>
+          <SheetTrigger asChild className="bg-white hidden sheet-trigger">
+            <Menu className="hidden menu-icon" />
+          </SheetTrigger>
+          <SheetContent>
+            <div className="grid gap-4 py-4">
+              <div className="grid grid-cols-4 items-center gap-4">
+                <a
+                  href="#"
+                  className="text-primary-foreground transition-colors hover:text-foreground"
+                >
+                  Product
+                </a>
+              </div>
+              <div className="grid grid-cols-4 items-center gap-4">
+                <a
+                  href="#"
+                  className="text-primary-foreground transition-colors hover:text-foreground"
+                >
+                  Features
+                </a>
+              </div>
+
+              <div className="grid grid-cols-4 items-center gap-4">
+                <a
+                  href="#"
+                  className="text-primary-foreground transition-colors hover:text-foreground"
+                >
+                  Pricing
+                </a>
+              </div>
+            </div>
+          </SheetContent>
+        </Sheet>
       </div>
     </nav>
   );
