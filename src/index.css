@@ -311,47 +311,99 @@ button:focus-visible {
   }
 }
 
-
 /* rating section */
 
 /* 0px to 706px */
-@media (max-width:706px) and (min-width:0px){
- .growth-guaranteed-section{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
+@media (max-width: 706px) and (min-width: 0px) {
+  .growth-guaranteed-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
 }
 /* 0px to 636px */
-@media (max-width:636px) and (min-width:0px){
- .ratings-container{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-.ratings-divider{
-  width: 80%;
-  height: 0px;
-}
+@media (max-width: 636px) and (min-width: 0px) {
+  .ratings-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .ratings-divider {
+    width: 80%;
+    height: 0px;
+  }
 }
 /* 0px to 391px */
-@media (max-width:391px) and (min-width:0px){
-.trusted-icon{
-  width: 80%;
-}
-.rating-icon{
-  width: 80%;
-}
+@media (max-width: 391px) and (min-width: 0px) {
+  .trusted-icon {
+    width: 80%;
+  }
+  .rating-icon {
+    width: 80%;
+  }
 }
 
 /* leading-brands-banner */
 
 /* 0px to 810px */
-@media (max-width:811px) and (min-width:0px){
-.leading-brands-container{
-  gap: 40px;
-  margin-left: 30px;
+@media (max-width: 811px) and (min-width: 0px) {
+  .leading-brands-container {
+    gap: 40px;
+    margin-left: 30px;
+  }
 }
+
+/* automation section  */
+
+/* 0px to 1052px */
+@media (max-width: 1052px) and (min-width: 0px) {
+  .automation-titles-container {
+    text-align: center;
+  }
+  .heading1 {
+    font-size: 3rem;
+  }
+}
+
+/* 0px to 811px */
+@media (max-width: 811px) and (min-width: 0px) {
+  .automation-titles-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .image-heading-container {
+    padding-left: 0px;
+  }
+  .automation-logo {
+    display: none;
+  }
+  .heading1 {
+    font-size: 34px;
+  }
+  .automation-section-logo {
+    width: 342px;
+    height: 221px;
+  }
+  .automation-subtitles-container {
+    width: 342px;
+  }
+  .heading2 {
+    font-size: 26px;
+  }
+}
+
+/* 0px to 728px */
+@media (max-width: 728px) and (min-width: 0px) {
+  .automation-sections {
+    flex-direction: column;
+    text-align: center;
+  }
+  .display-headings {
+    display: flex;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
 }
