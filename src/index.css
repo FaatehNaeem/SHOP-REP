@@ -525,3 +525,27 @@ button:focus-visible {
     display: block;
   }
 }
+
+
+/* testimonials section  */
+
+@media (max-width:985px) and (min-width:0px){
+  .text-\[40px\]{
+  font-size: 30px;
+  text-align: center;
+  }
+  .testimonial-paragraph{
+  width: 300px !important;
+  }
+}
+
+@media (max-width:725px) and (min-width:0px){
+ .testimonial-section-container{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+ }
+   /* .testimonial-paragraph{
+  width: 100% !important;
+  } */
+}

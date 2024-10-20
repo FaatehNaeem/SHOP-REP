@@ -2,7 +2,7 @@ import Testimonial from "@/components/testimonial";
 
 export default function TestimonialsSection() {
   return (
-    <>
+    <section>
       <div className="w-screen flex flex-col justify-center items-center mt-8">
         <img src="comma.svg" alt="" width={"46px"} height={"39px"} />
         <h1 className="text-[40px] font-bold">
@@ -11,10 +11,9 @@ export default function TestimonialsSection() {
         <h1 className="text-[40px] font-bold">
           delighting their customers and increading revenue{" "}
         </h1>
-          </div>
-          
-          <div className="flex flex-row w-screen items-center justify-center gap-8 mt-8">
-              
+      </div>
+
+      <div className="flex flex-row w-screen items-center justify-center gap-8 mt-8 testimonial-section-container">
         <Testimonial
           text={
             "“Shoprep’s ability to seamlessly switch between platforms has revolutionized our customer service operations.”"
@@ -30,8 +29,8 @@ export default function TestimonialsSection() {
           paragraphWidth="508px"
         />
       </div>
-          <div className="flex flex-row w-screen items-center justify-center gap-8 mt-8">
-              
+
+      <div className="flex flex-row w-screen items-center justify-center gap-8 mt-8 testimonial-section-container">
         <Testimonial
           text={
             "“Shoprep’s ability to seamlessly switch between platforms has revolutionized our customer service operations.”"
@@ -47,6 +46,6 @@ export default function TestimonialsSection() {
           paragraphWidth="508px"
         />
       </div>
-    </>
+    </section>
   );
 }

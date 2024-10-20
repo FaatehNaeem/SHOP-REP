@@ -10,7 +10,7 @@ export default function AutomationSection() {
           height={"261px"}
           className="automation-logo"
         />
-        <div className="flex flex-col ml-8 items-center automation-titles-container">
+        <div className="flex flex-col ml-2 items-center automation-titles-container">
           <h1 className="heading1">Experience the Full Potential of</h1>
           <h1 className="heading1">AI-Powered Support</h1>
         </div>

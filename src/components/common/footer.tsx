@@ -136,7 +136,7 @@ export default function Footer() {
           <h2 className="text-primary-foreground">All rights reserved</h2>
         </div>
 
-        <div className="flex justify-end items-center w-[70%] gap-4 terms-container">
+        <div className="flex justify-end items-center w-[68%] gap-4 terms-container">
           <h2 className="text-primary-foreground">Term of Use</h2>
           <h2 className="text-primary-foreground">Privacy Policy</h2>
         </div>

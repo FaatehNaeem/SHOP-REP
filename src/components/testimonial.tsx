@@ -14,7 +14,10 @@ export default function Testimonial({
       className="flex flex-col justify-center items-center mt-2"
       style={{ width: width }}
     >
-      <p className="text-center" style={{ width: paragraphWidth }}>
+      <p
+        className="text-center testimonial-paragraph"
+        style={{ width: paragraphWidth }}
+      >
         {text}
       </p>
       <img
