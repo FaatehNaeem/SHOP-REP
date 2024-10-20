@@ -407,3 +407,15 @@ button:focus-visible {
     display: none;
   }
 }
+
+/* cta section  */
+
+/* 0px to 640px */
+@media (max-width: 640px) and (min-width: 0px) {
+  .cta-container {
+    top: 140px;
+  }
+  .cta-section {
+    width: 80px;
+  }
+}
