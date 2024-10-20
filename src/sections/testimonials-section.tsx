@@ -5,10 +5,10 @@ export default function TestimonialsSection() {
     <section>
       <div className="w-screen flex flex-col justify-center items-center mt-8">
         <img src="comma.svg" alt="" width={"46px"} height={"39px"} />
-        <h1 className="text-[40px] font-bold">
+        <h1 className="text-[40px] font-bold text-primary-foreground">
           Over 1,000 e-com stores trust Shop Rep with
         </h1>
-        <h1 className="text-[40px] font-bold">
+        <h1 className="text-[40px] font-bold text-primary-foreground">
           delighting their customers and increading revenue{" "}
         </h1>
       </div>
