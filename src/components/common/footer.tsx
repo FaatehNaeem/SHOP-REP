@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <footer>
-      <nav className="hidden flex-row gap-12 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-12 h-[386px] border-b">
+      <nav className="flex flex-row gap-5 text-lg font-medium md:flex md:flex-row md:items-center md:gap-12 md:text-sm lg:gap-12 h-[386px] border-b footer-nav">
         {/* create an account */}
-        <div className="flex flex-col w-[30%] gap-4 pl-6 h-52">
+        <div className="flex flex-col w-[30%] gap-4 pl-6 h-52 ml-16 create-an-account">
           <a
             href="#"
             className="text-primary-foreground transition-colors hover:text-foreground font-bold"
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
 
         {/* resources */}
-        <div className="flex flex-col w-[30%] gap-4 pl-6 h-52">
+        <div className="flex flex-col w-[30%] gap-4 pl-6 h-52 resources-container">
           <a
             href="#"
             className="text-primary-foreground transition-colors hover:text-foreground font-bold"
@@ -77,12 +77,12 @@ export default function Footer() {
         </div>
 
         {/* footer icon */}
-        <div className="flex flex-col w-[30%] gap-4 h-52">
+        <div className="flex flex-col gap-4 w-[30%] h-52 footer-logo-container">
           <img src="footer-icon.png" alt="" width={"261px"} height={"261px"} />
         </div>
 
         {/* social links  */}
-        <div className="flex flex-col w-[30%] gap-4 h-52">
+        <div className="flex flex-col w-[30%] gap-4 h-52 social-links-container">
           <h3>SOCIAL</h3>
 
           <div className="flex flex-row gap-6 items-center mt-2">
@@ -131,15 +131,25 @@ export default function Footer() {
       </nav>
 
       {/* copyrights */}
-      <div className="flex flex-row w-[98vw]">
-        <div className="p-5 pl-6">
+      <div className="flex flex-row w-screen items-center justify-around copyrights-container border-t h-[50px]">
+        <div className="p-5 pl-12 all-rights-reserved">
           <h2 className="text-primary-foreground">All rights reserved</h2>
         </div>
 
-        <div className="flex justify-end items-center w-[80%] gap-4">
+        <div className="flex justify-end items-center w-[68%] gap-4 terms-container">
           <h2 className="text-primary-foreground">Term of Use</h2>
           <h2 className="text-primary-foreground">Privacy Policy</h2>
         </div>
+
+        <h2 className="text-primary-foreground hidden copyrights-text">
+          All rights reserved
+        </h2>
+        <h2 className="text-primary-foreground hidden copyrights-text">
+          Term of Use
+        </h2>
+        <h2 className="text-primary-foreground hidden copyrights-text">
+          Privacy Policy
+        </h2>
       </div>
     </footer>
   );

@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function CustomerExperienceBanner() {
   return (
     <div className="w-screen mt-16 bg-[#00CCBB80] flex flex-row h-[546px]">
-      <div className="w-[15%]">
+      <div className="w-[15%] customer-exp">
         <img
           src="customer-experience-banner.svg"
           alt=""
@@ -13,23 +13,23 @@ export default function CustomerExperienceBanner() {
         />
       </div>
 
-      <div className="flex flex-col w-[70%] justify-center items-center gap-4">
-        <h1 className="text-background text-[40px]">
+      <div className="flex flex-col w-[70%] justify-center items-center gap-4 customer-exp-text-container">
+        <h1 className="text-background text-[40px] text-center customer-exp-title">
           Ready to Enchance Your Customer Experience?
         </h1>
-        <p className="text-background">
+        <p className="text-background text-center">
           Discover how our AI chatbot can help solve your customer service
           challenges today.
         </p>
-        <Button className="bg-secondary-foreground rounded-3xl w-[185px] h-[44px] text-background focus-visible:ring-0 hover:border-none hover:bg-teal-500 focus:outline-none">
+        <Button className="bg-secondary-foreground rounded-3xl w-[185px] h-[44px] text-background focus-visible:ring-0 hover:border-none hover:bg-teal-500 focus:outline-none customer-exp-btn">
           Simulate Shop Rep
         </Button>
         <Divider imgString="white-comma.svg" />
-        <p className="text-background w-[618px] text-center">
+        <p className="text-background w-[618px] text-center customer-exp-paragraph">
           “Our sales increased by 30% in just three months thanks to this
           chatbot.
         </p>
-        <p className="text-background w-[618px] text-center">
+        <p className="text-background w-[618px] text-center customer-exp-paragraph">
           It’s like having a full-time sales and support team available 24/7.”
         </p>
 
@@ -45,7 +45,7 @@ export default function CustomerExperienceBanner() {
         </p>
       </div>
 
-      <div className="flex items-end ml-4">
+      <div className="flex justify-end items-end ml-4 w-[15%] customer-exp">
         <img
           src="customer-experience-banner-2.svg"
           alt=""

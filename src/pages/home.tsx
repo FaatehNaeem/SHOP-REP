@@ -10,7 +10,7 @@ import CustomerExperienceBanner from "@/components/customer-experience-banner";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen w-screen flex-col bg-background">
+    <div className="flex w-screen flex-col bg-background">
       <Header />
       <HeroSection />
       <ServicesSection />
