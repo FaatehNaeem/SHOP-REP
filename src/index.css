@@ -247,6 +247,7 @@ button:focus-visible {
 
 /* header section responsivess */
 
+/* 811px to 1030px */
 @media (max-width: 1030px) and (min-width: 811px) {
   .logo-container {
     padding-left: 0px;
@@ -259,6 +260,7 @@ button:focus-visible {
   }
 }
 
+/* 0px to 810px */
 @media (max-width: 810px) and (min-width: 0px) {
   .logo-container {
     padding-left: 0px;
@@ -292,12 +294,14 @@ button:focus-visible {
   }
 }
 
+/* 391px to 485px */
 @media (max-width: 485px) and (min-width: 391px) {
   .logo-img {
     width: 70%;
   }
 }
 
+/* 0px to 390px */
 @media (max-width: 390px) and (min-width: 0px) {
   .logo-img {
     display: none;
@@ -305,4 +309,49 @@ button:focus-visible {
   .logo-img-2 {
     display: block;
   }
+}
+
+
+/* rating section */
+
+/* 0px to 706px */
+@media (max-width:706px) and (min-width:0px){
+ .growth-guaranteed-section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+}
+/* 0px to 636px */
+@media (max-width:636px) and (min-width:0px){
+ .ratings-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.ratings-divider{
+  width: 80%;
+  height: 0px;
+}
+}
+/* 0px to 391px */
+@media (max-width:391px) and (min-width:0px){
+.trusted-icon{
+  width: 80%;
+}
+.rating-icon{
+  width: 80%;
+}
+}
+
+/* leading-brands-banner */
+
+/* 0px to 810px */
+@media (max-width:811px) and (min-width:0px){
+.leading-brands-container{
+  gap: 40px;
+  margin-left: 30px;
+}
 }
