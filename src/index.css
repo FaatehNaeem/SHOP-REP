@@ -419,3 +419,32 @@ button:focus-visible {
     width: 80px;
   }
 }
+
+/* customer experience section */
+
+/* 0px to 810px */
+@media (max-width:810px) and (min-width: 0px) {
+  .customer-exp {
+    display: none;
+  }
+  .customer-exp-text-container{
+    width: 100%;
+    gap: 8px;
+  }
+  .customer-exp-title{
+    font-size: 34px;
+  }
+  .customer-exp-paragraph{
+    width:638px
+  }
+  .customer-exp-btn{
+    display: none;
+  }
+}
+
+/* 0px to 510px */
+@media (max-width:510px) and (min-width:0px){
+  .customer-exp-paragraph{
+    width:342px;
+  }
+}
