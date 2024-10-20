@@ -10,7 +10,7 @@ export default function ServicesSection() {
       <h1 className="text-center boost-sales-heading font-bold">
         Customer Support Effortlessly
       </h1>
-      <div className="w-[70%] text-center mt-4 para-container">
+      <div className="text-center mt-4 para-container">
         <p>
           Struggling to manage customer queries and sales across multiple
           platforms? Our chatbot integrates seamlessly with web, chat,
@@ -27,7 +27,7 @@ export default function ServicesSection() {
           <h5 className="text-primary-foreground font-bold text-[20px] mt-2 text-center services-heading">
             24/7 Automated Customer Support
           </h5>
-          <p className="text-center mt-2 text-zinc-500 text-[16px] w-[364px] services-para">
+          <p className="text-center mt-2 text-[#6F6A7C] text-[16px] w-[364px] services-para">
             Never miss a query with round-the-clock automated assistance,
             ensuring your customers receive immediate and accurate responses.
           </p>
@@ -43,7 +43,7 @@ export default function ServicesSection() {
           <h5 className="text-primary-foreground font-bold text-[20px] mt-2 services-heading">
             Omnichannel Integration
           </h5>
-          <p className="text-center mt-2 text-zinc-500 text-[16px] w-[364px] services-para">
+          <p className="text-center mt-2 text-[#6F6A7C] text-[16px] w-[364px] services-para">
             Engage with customers on their preferred platform—be it web, chat,
             or phone—ensuring a consistent and unified experience.
           </p>
@@ -54,7 +54,7 @@ export default function ServicesSection() {
           <h5 className="text-primary-foreground font-bold text-[20px] mt-2 services-heading">
             Increased Sales Conversions
           </h5>
-          <p className="text-center mt-2 text-zinc-500 text-[16px] w-[364px] services-para">
+          <p className="text-center mt-2 text-[#6F6A7C] text-[16px] w-[364px] services-para">
             Drive sales by guiding customers through their buying journey with
             personalized recommendations and timely offers.
           </p>
@@ -67,8 +67,8 @@ export default function ServicesSection() {
         text={
           "“Our sales increased by 30% in just three months thanks to this chatbot. It’s like having a full-time sales and support team available 24/7.”"
         }
-        width="max-screen"
-        paragraphWidth="max-screen"
+        width="618px"
+        paragraphWidth="618px"
       />
     </div>
   );

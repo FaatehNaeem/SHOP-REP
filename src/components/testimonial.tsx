@@ -15,7 +15,7 @@ export default function Testimonial({
       style={{ width: width }}
     >
       <p
-        className="text-center testimonial-paragraph"
+        className="text-center testimonial-paragraph text-[#6F6A7C]"
         style={{ width: paragraphWidth }}
       >
         {text}
@@ -25,7 +25,7 @@ export default function Testimonial({
         alt=""
         width={"40px"}
         height={"40px"}
-        className="mt-2 rounded-md"
+        className="mt-4 rounded-md"
       />
       <p className="text-primary-foreground font-bold mt-2">
         Jane Doe, CEO at TechRetail

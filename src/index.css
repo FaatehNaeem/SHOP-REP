@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Plus Jakarta Sans";
   font-weight: 400;
 
   color-scheme: light dark;
@@ -32,6 +31,7 @@ body {
   display: flex;
   place-items: center;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -192,6 +192,7 @@ button:focus-visible {
   }
   .services-card {
     width: 250px;
+    margin-top: 10px;
   }
 
   .services-heading {
@@ -201,7 +202,7 @@ button:focus-visible {
   .services-para {
     width: 220px;
     font-size: 14px;
-    height: 80px;
+    height: 100px;
   }
   .boost-sales-heading {
     font-size: 2.3rem;
@@ -314,7 +315,7 @@ button:focus-visible {
 /* rating section */
 
 /* 0px to 706px */
-@media (max-width: 706px) and (min-width: 0px) {
+@media (max-width: 735px) and (min-width: 0px) {
   .growth-guaranteed-section {
     flex-direction: column;
     justify-content: center;
@@ -323,12 +324,13 @@ button:focus-visible {
   }
 }
 /* 0px to 636px */
-@media (max-width: 636px) and (min-width: 0px) {
+@media (max-width: 695px) and (min-width: 0px) {
   .ratings-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    gap: 12px;
   }
   .ratings-divider {
     width: 80%;
@@ -454,14 +456,14 @@ button:focus-visible {
 /* 811px to 930px */
 @media (max-width: 930px) and (min-width: 811px) {
   .footer-logo-container {
-   width: 20%;
-   gap: 8px;
+    width: 20%;
+    gap: 8px;
   }
 }
 
 /* 660px to 810px */
 @media (max-width: 810px) and (min-width: 660px) {
-  .footer-nav{
+  .footer-nav {
     justify-content: space-between;
     align-items: center;
     gap: 0px;
@@ -469,83 +471,78 @@ button:focus-visible {
   .footer-logo-container {
     display: none;
   }
-  .create-an-account{
+  .create-an-account {
     font-size: 14px;
   }
-  .resources-container{
+  .resources-container {
     font-size: 14px;
   }
-  .copyrights-container{
-  align-items: center;
-  height: 50px;
+  .copyrights-container {
+    align-items: center;
+    height: 50px;
   }
-  .terms-container{
+  .terms-container {
     width: 50%;
   }
 }
 
 /* 0px to 660px */
-@media (max-width:660px) and (min-width:0px){
-  .footer-nav{
+@media (max-width: 660px) and (min-width: 0px) {
+  .footer-nav {
     flex-direction: column;
     align-items: start;
     justify-content: flex-start;
     border-width: 0px;
     padding-top: 16px;
   }
-  .create-an-account{
+  .create-an-account {
     margin-left: 0px;
     width: 100%;
   }
-  .resources-container{
+  .resources-container {
     margin-top: 70px;
     width: 100%;
   }
-  .social-links-container{
+  .social-links-container {
     margin-left: 23px;
     margin-top: 30px;
     width: 100%;
   }
-   .footer-logo-container {
+  .footer-logo-container {
     display: none;
   }
-  .copyrights-container{
-  margin-top: 300px;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 50px;
+  .copyrights-container {
+    margin-top: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
   }
-  .all-rights-reserved{
+  .all-rights-reserved {
     display: none;
   }
-  .terms-container{
+  .terms-container {
     display: none;
   }
-  .copyrights-text{
+  .copyrights-text {
     display: block;
   }
 }
 
-
 /* testimonials section  */
 
-@media (max-width:985px) and (min-width:0px){
-  .text-\[40px\]{
-  font-size: 30px;
-  text-align: center;
+@media (max-width: 1010px) and (min-width: 0px) {
+  .text-\[40px\] {
+    font-size: 30px;
+    text-align: center;
   }
-  .testimonial-paragraph{
-  width: 300px !important;
+  .testimonial-paragraph {
+    width: 300px !important;
   }
 }
 
-@media (max-width:725px) and (min-width:0px){
- .testimonial-section-container{
-  display: flex;
-  flex-direction: column;
-  /* width: 100%; */
- }
-   /* .testimonial-paragraph{
-  width: 100% !important;
-  } */
+@media (max-width: 725px) and (min-width: 0px) {
+  .testimonial-section-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

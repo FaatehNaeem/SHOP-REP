@@ -6,37 +6,37 @@ export default function Footer() {
         <div className="flex flex-col w-[30%] gap-4 pl-6 h-52 ml-16 create-an-account">
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground font-bold"
+            className="text-primary-foreground transition-colors hover:text-foreground font-bold text-[14px]"
           >
             Create an account
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Answering Service for Small Business
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Ai Phone answering
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             FAQs
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             About Us
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Contact Us
           </a>
@@ -46,31 +46,31 @@ export default function Footer() {
         <div className="flex flex-col w-[30%] gap-4 pl-6 h-52 resources-container">
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground font-bold"
+            className="text-primary-foreground transition-colors hover:text-foreground font-bold text-[14px]"
           >
             Resources
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Artificial Intelligence Receptionist
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Live Demo
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Blog
           </a>
           <a
             href="#"
-            className="text-primary-foreground transition-colors hover:text-foreground"
+            className="text-primary-foreground transition-colors hover:text-foreground text-[14px]"
           >
             Help Center
           </a>
@@ -133,12 +133,16 @@ export default function Footer() {
       {/* copyrights */}
       <div className="flex flex-row w-screen items-center justify-around copyrights-container border-t h-[50px]">
         <div className="p-5 pl-12 all-rights-reserved">
-          <h2 className="text-primary-foreground">All rights reserved</h2>
+          <h2 className="text-primary-foreground text-[14px]">
+            All rights reserved.
+          </h2>
         </div>
 
         <div className="flex justify-end items-center w-[68%] gap-4 terms-container">
-          <h2 className="text-primary-foreground">Term of Use</h2>
-          <h2 className="text-primary-foreground">Privacy Policy</h2>
+          <h2 className="text-primary-foreground text-[14px]">Term of Use</h2>
+          <h2 className="text-primary-foreground text-[14px]">
+            Privacy Policy
+          </h2>
         </div>
 
         <h2 className="text-primary-foreground hidden copyrights-text">
