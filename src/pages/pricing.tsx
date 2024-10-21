@@ -15,7 +15,7 @@ export default function Pricing() {
         title="Start your free trial today—no credit card required."
         marginTop="0px"
       />
-      <QuestionSection/>
+      <QuestionSection />
       <Footer />
     </div>
   );
