@@ -15,7 +15,10 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <AutomationSection />
-      <CallToActionBanner />
+      <CallToActionBanner
+        title="Try Our E-Commerce Chatbot Free for 14 Days – No Credit Card Required"
+        marginTop="64px"
+      />
       <TestimonialsSection />
       <FeaturesSection />
       <CustomerExperienceBanner />

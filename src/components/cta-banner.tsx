@@ -1,8 +1,18 @@
 import { Button } from "./ui/button";
 
-export default function CallToActionBanner() {
+interface CallToActionBannerProps {
+  title: string;
+  marginTop: string;
+}
+export default function CallToActionBanner({
+  title,
+  marginTop,
+}: CallToActionBannerProps) {
   return (
-    <div className="relative w-screen mt-16 bg-[#00CCBB80] h-[194px] flex items-center">
+    <div
+      className="relative w-screen bg-[#00CCBB80] h-[194px] flex items-center"
+      style={{ marginTop: marginTop }}
+    >
       {/* Left Image */}
       <div className="absolute left-0 top-0">
         <img
@@ -16,9 +26,7 @@ export default function CallToActionBanner() {
 
       {/* Center Content */}
       <div className="flex flex-col justify-center items-center h-full mx-auto">
-        <p className="text-background font-bold text-lg text-center">
-          Try Our E-Commerce Chatbot Free for 14 Days – No Credit Card Required
-        </p>
+        <p className="text-background font-bold text-lg text-center">{title}</p>
 
         <Button className="bg-secondary-foreground rounded-3xl w-[236px] h-[44px] text-background focus-visible:ring-0 hover:border-none hover:bg-teal-500 focus:outline-none mt-4">
           Start Your Free Trial Today
