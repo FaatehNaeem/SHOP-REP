@@ -7,6 +7,7 @@ import {
 import App from "./App.tsx";
 import Home from "./pages/home.tsx";
 import Pricing from "./pages/pricing.tsx";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
