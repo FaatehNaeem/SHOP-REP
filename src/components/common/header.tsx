@@ -5,41 +5,42 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <nav className="flex flex-row gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 h-[64px] navbar justify-between items-center">
       {/* logo */}
       <div className="w-[33%] pl-12 logo-container items-center justify-center">
-        <a
-          href="#"
+        <Link
+          to="/"
           className="flex flex-row items-center gap-2 text-lg font-semibold md:text-base min-w-max"
         >
           <img src="shop-rep-logo.svg" alt="" className="logo-img" />
           <img src="cart-logo.svg" alt="" className="logo-img-2 hidden" />
-        </a>
+        </Link>
       </div>
 
       {/* menu items */}
       <div className="flex w-[30%] justify-center items-center gap-12 p-2 menu-items">
-        <a
-          href="#"
+        <Link
+          to="/product"
           className="text-primary-foreground transition-colors hover:text-foreground"
         >
           Product
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/features"
           className="text-primary-foreground transition-colors hover:text-foreground"
         >
           Features
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/pricing"
           className="text-primary-foreground transition-colors hover:text-foreground"
         >
           Pricing
-        </a>
+        </Link>
       </div>
 
       {/* btn + login */}
