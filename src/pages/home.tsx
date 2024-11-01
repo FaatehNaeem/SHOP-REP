@@ -1,12 +1,12 @@
 import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
-import HeroSection from "@/sections/hero-section";
-import ServicesSection from "@/sections/services-section";
-import AutomationSection from "@/sections/automation-section";
 import CallToActionBanner from "@/components/cta-banner";
-import TestimonialsSection from "@/sections/testimonials-section";
-import FeaturesSection from "@/sections/features-section";
 import CustomerExperienceBanner from "@/components/customer-experience-banner";
+import HeroSection from "@/sections/home/hero-section";
+import ServicesSection from "@/sections/home/services-section";
+import AutomationSection from "@/sections/home/automation-section";
+import TestimonialsSection from "@/sections/home/testimonials-section";
+import FeaturesSection from "@/sections/home/features-section";
 
 export default function Home() {
   return (
@@ -15,7 +15,10 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <AutomationSection />
-      <CallToActionBanner />
+      <CallToActionBanner
+        title="Try Our E-Commerce Chatbot Free for 14 Days – No Credit Card Required"
+        marginTop="64px"
+      />
       <TestimonialsSection />
       <FeaturesSection />
       <CustomerExperienceBanner />
