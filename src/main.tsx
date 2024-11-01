@@ -4,26 +4,21 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import App from "./App.tsx";
 import Home from "./pages/home.tsx";
 import Pricing from "./pages/pricing.tsx";
 import "./index.css";
 
 const router = createBrowserRouter([
-  {
-    element: <App />, // Render the App component as a layout
-    children: [
       {
-        path: "/",
+        path: "/", // Home route
         element: <Home />,
       },
       {
-        path: "/pricing",
+        path: "/pricing", // Pricing route
         element: <Pricing />,
       },
     ],
-  },
-]);
+);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
